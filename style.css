@@ -1,0 +1,41 @@
+
+#content {
+    width: 720px;
+    padding: 16px;
+    margin: 0 auto;
+    background-color: #fcfcfc;
+    /* background-color: #ffc107; */
+}
+
+h1 {
+    text-align: center;
+}
+
+
+h2 {
+    position: relative;
+    padding: 4px 8px;
+    margin-top: 48px;
+    background-color: #b3e5fc;
+}
+h2::before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 712px;
+    background-color: black;
+    top: 1.6em;
+    left: 4px;
+    z-index: 999;
+}
+
+p {
+    padding: 0 15px;
+}
+
+#fotter {
+    margin-top: 48px;
+}
+#fotter p {
+    text-align: center;
+}
